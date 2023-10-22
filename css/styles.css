@@ -2,14 +2,14 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background: rgb(32, 32, 32);
+    background: rgb(255, 255, 255);
 }
 
 #navigation {
     display: flex;
     justify-content: center;
     padding: 1.5rem;
-    background: black;
+    background: rgb(0, 0, 0);
 }
 
 #navigation li {
@@ -20,7 +20,7 @@ body {
 #navigation li a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     cursor: pointer;
     margin-left: 50px;
@@ -34,10 +34,11 @@ body {
 }
 
 footer {
-    background: black;
+    background: rgb(0, 0, 0);
     display: flex;
     justify-content: end;
     position: absolute;
+    color: #ffffff;
     width: 100%;
     bottom: 0;
 }
