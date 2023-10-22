@@ -7,7 +7,7 @@ function aboutRender() {
     <h3> Sou apaixonado pelo mundo da tecnologia e estou sempre em busca de novos conhecimentos nessa área fascinante.
     <h3> Além dos estudos, gosto de mergulhar no universo dos jogos, explorando mundos virtuais e desafios empolgantes.
     <h3> Nas horas mais tranquilas, você pode me encontrar relaxando enquanto assisto a filmes, uma paixão que compartilho com minha admiração por games.
-    <h3> Estou sempre aberto a novas experiências e oportunidades de aprendizado</p>`;
+    <h3> Estou sempre aberto a novas experiências e oportunidades de aprendizado.`;
 }
 
 function formationRender() {
