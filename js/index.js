@@ -30,11 +30,16 @@ function portRender() {
 
 function contactRender() {
     content.innerHTML = `
-    <h1> Meus contatos:</h1>
-    <ul>
-    <li>Meu Email:</h1>
-    <li>Telefone:</h1>
-    </ul>`;
+    <form id="formulario" autocomplete="off">
+      <fieldset>
+        <legend>Formulário</legend>
+        <label>Nome:</label><input class="campo_nome" type="text"><br>
+        <label>Email:</label><input class="campo_email" type="password"><br>
+        <label>Mensagem:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
+        <input class="btn_submit" type="submit" value="Enviar">
+      </fieldset>
+    </form>`;
+
 }
 
  
