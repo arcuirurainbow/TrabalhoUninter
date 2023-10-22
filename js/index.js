@@ -3,7 +3,11 @@ const content = document.getElementById('content');
 function aboutRender() {
     content.innerHTML = `
     <h2>Bem-vindo ao Meu Site!</h1>
-    <h1> Esse site é um dos trabalhos na qual estou utilizando HTML com CSS e Javascript.</p>`;
+    <h3> Olá! Meu nome é Lucas, tenho 22 anos e atualmente estou dedicando meu tempo ao curso de Análise e Desenvolvimento de Sistemas.
+    <h3> Sou apaixonado pelo mundo da tecnologia e estou sempre em busca de novos conhecimentos nessa área fascinante.
+    <h3> Além dos estudos, gosto de mergulhar no universo dos jogos, explorando mundos virtuais e desafios empolgantes.
+    <h3> Nas horas mais tranquilas, você pode me encontrar relaxando enquanto assisto a filmes, uma paixão que compartilho com minha admiração por games.
+    <h3> Estou sempre aberto a novas experiências e oportunidades de aprendizado</p>`;
 }
 
 function formationRender() {
@@ -24,21 +28,22 @@ function portRender() {
     content.innerHTML = `
     <h1>Meu portifólio:</h1>
     <ul>
-        <li>Link:</li>
+        <li>Link: <a target="_blank" href="https://github.com/arcuirurainbow">Github </a> </li>
     </ul>`;
 }
 
 function contactRender() {
     content.innerHTML = `
-    <form id="formulario" autocomplete="off">
+    <div id="area">
+    <form id="Contato" autocomplete="off">
       <fieldset>
-        <legend>Formulário</legend>
-        <label>Nome:</label><input class="campo_nome" type="text"><br>
-        <label>Email:</label><input class="campo_email" type="password"><br>
-        <label>Mensagem:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
-        <input class="btn_submit" type="submit" value="Enviar">
+        <legend>Contato</legend>
+        <label>Nome:</label><input name="username" type="text"><br>
+        <label>Email:</label><input name="password" type="password"><br>
+        <label>Mensagem:</label><br><textarea cols="35" rows="8"></textarea><br>
+        <input type="submit" value="Enviar">
       </fieldset>
-    </form>`;
+    </form></div>`;
 
 }
 
